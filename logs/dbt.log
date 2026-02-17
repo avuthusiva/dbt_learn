@@ -1,0 +1,86 @@
+[0m11:57:16.931882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b36f0faf950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b36f14f1f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b36f182b9b0>]}
+
+
+============================== 11:57:16.936560 | e145cbe6-f0ce-4cf3-9dd0-721c129b0c97 ==============================
+[0m11:57:16.936560 [info ] [MainThread]: Running with dbt=1.11.5
+[0m11:57:16.937401 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'profiles_dir': '/home/siva/.dbt', 'introspect': 'True', 'printer_width': '80', 'version_check': 'True', 'log_path': 'logs', 'log_cache_events': 'False', 'no_print': 'None', 'fail_fast': 'False', 'static_parser': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'quiet': 'False', 'debug': 'False', 'warn_error': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False'}
+[0m11:57:32.367042 [debug] [MainThread]: Starter project path: /home/siva/Desktop/work/dbt_learn/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:57:32.369238 [info ] [MainThread]: 
+Your new dbt project "duckdb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:57:32.369689 [info ] [MainThread]: Setting up your profile.
+[0m11:57:34.503028 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 17.625044, "process_in_blocks": "2272", "process_kernel_time": 0.178023, "process_mem_max_rss": "129092", "process_out_blocks": "80", "process_user_time": 1.359179}
+[0m11:57:34.503624 [debug] [MainThread]: Command `dbt init` succeeded at 11:57:34.503515 after 17.63 seconds
+[0m11:57:34.504396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b36f14f1f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b36f1558d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b36f0faee10>]}
+[0m11:57:34.504922 [debug] [MainThread]: Flushing usage events
+[0m11:57:35.789373 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:57:52.627620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x718559cb6e40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x718557156c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x718557d59a30>]}
+
+
+============================== 11:57:52.631213 | 17d82dd0-029f-48c7-aa1d-22e088208842 ==============================
+[0m11:57:52.631213 [info ] [MainThread]: Running with dbt=1.11.5
+[0m11:57:52.631778 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'printer_width': '80', 'empty': 'None', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_cache_events': 'False', 'no_print': 'None', 'warn_error': 'None', 'log_format': 'default', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/siva/.dbt', 'cache_selected_only': 'False', 'version_check': 'True', 'use_colors': 'True', 'static_parser': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'write_json': 'True', 'fail_fast': 'False', 'partial_parse': 'True'}
+[0m11:57:52.640217 [info ] [MainThread]: dbt version: 1.11.5
+[0m11:57:52.640737 [info ] [MainThread]: python version: 3.12.3
+[0m11:57:52.641139 [info ] [MainThread]: python path: /home/siva/Desktop/work/dbt_learn/bin/python3
+[0m11:57:52.641508 [info ] [MainThread]: os info: Linux-6.8.0-100-generic-x86_64-with-glibc2.39
+[0m11:57:52.867758 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m11:57:52.868294 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m11:57:52.868626 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m11:57:53.117981 [info ] [MainThread]: Using profiles dir at /home/siva/.dbt
+[0m11:57:53.118525 [info ] [MainThread]: Using profiles.yml file at /home/siva/.dbt/profiles.yml
+[0m11:57:53.118865 [info ] [MainThread]: Using dbt_project.yml file at /home/siva/Desktop/work/dbt_learn/dbt_project.yml
+[0m11:57:53.119246 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m11:57:53.120153 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.55171114, "process_in_blocks": "680", "process_kernel_time": 0.199528, "process_mem_max_rss": "156756", "process_out_blocks": "16", "process_user_time": 1.8305}
+[0m11:57:53.121370 [debug] [MainThread]: Command `dbt debug` failed at 11:57:53.121154 after 0.55 seconds
+[0m11:57:53.122024 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x718558294c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7185556aa720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x718555bae300>]}
+[0m11:57:53.122518 [debug] [MainThread]: Flushing usage events
+[0m11:57:54.325644 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:59:19.015652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7821391e3770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78213930fda0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x782138dcef60>]}
+
+
+============================== 11:59:19.019450 | ed584334-7729-48c5-8480-bbbe6ca054b4 ==============================
+[0m11:59:19.019450 [info ] [MainThread]: Running with dbt=1.11.5
+[0m11:59:19.020207 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'fail_fast': 'False', 'profiles_dir': '/home/siva/.dbt', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'target_path': 'None', 'quiet': 'False', 'log_path': 'logs', 'use_colors': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'version_check': 'True', 'invocation_command': 'dbt init', 'empty': 'None', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'debug': 'False', 'warn_error': 'None', 'log_cache_events': 'False', 'cache_selected_only': 'False'}
+[0m11:59:21.555726 [debug] [MainThread]: Starter project path: /home/siva/Desktop/work/dbt_learn/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:59:21.557935 [info ] [MainThread]: 
+Your new dbt project "snowflake" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:59:21.558374 [info ] [MainThread]: Setting up your profile.
+[0m11:59:30.449706 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m11:59:30.450510 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m11:59:30.451156 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m12:02:42.283226 [info ] [MainThread]: Profile snowflake written to /home/siva/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:02:42.284498 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 203.33821, "process_in_blocks": "0", "process_kernel_time": 0.225322, "process_mem_max_rss": "125612", "process_out_blocks": "104", "process_user_time": 2.053653}
+[0m12:02:42.285257 [debug] [MainThread]: Command `dbt init` succeeded at 12:02:42.285134 after 203.34 seconds
+[0m12:02:42.285666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78213961a570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x782137652480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x782136d5a780>]}
+[0m12:02:42.286064 [debug] [MainThread]: Flushing usage events
+[0m12:02:43.619607 [debug] [MainThread]: An error was encountered while trying to flush usage events

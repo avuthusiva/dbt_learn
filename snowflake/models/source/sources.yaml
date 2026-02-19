@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: dbt_db
+    schema: dbt_schema
+    tables:
+      - name: orders
+        #config:
+        #  freshness:
+        #    warn_after: 
+        #      count: 365
+        #      period: day
+        #    error_after:
+        #      count: 1000
+        #      period: day
+        #  loaded_at_field: created_at 
+      - name: products
+      - name: users
+      - name: reviews
+        

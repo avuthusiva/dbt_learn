@@ -5,6 +5,7 @@ sources:
     database: dbt_db
     schema: dbt_schema
     tables:
+      - name: orders_inc
       - name: orders
         columns:
           - name: id

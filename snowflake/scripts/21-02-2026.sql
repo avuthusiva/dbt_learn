@@ -114,3 +114,7 @@ select * from orders_inc where id = 10;
 update orders_inc set quantity = 10,created_at = current_timestamp()
 where id = 10;
 select * from dbt_db.bronze.bronze_orders where id = 10;
+select * from dbt_db.snapshot.products_snapshot where id = 200;
+select * from products where id = 200;
+update products set price = 100,created_at=current_timestamp() where id = 200;
+drop table dbt_db.snapshot.orders_snapshot_yml;

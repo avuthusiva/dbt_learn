@@ -6,6 +6,9 @@ sources:
     schema: dbt_schema
     tables:
       - name: orders_inc
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "quantity >= 0 and unit_price>=0"  
       - name: orders
         columns:
           - name: id
@@ -18,6 +21,16 @@ sources:
                   arguments:
                     to: products
                     field: id
+          - name: quantity
+            data_tests:
+              - dbt_utils.expression_is_true:
+                  arguments:
+                    expression: ">=0"
+          - name: unit_price
+            data_tests:
+              - dbt_utils.expression_is_true:
+                  arguments:
+                    expression: ">=0"  
         #config:
         #  freshness:
         #    warn_after: 
